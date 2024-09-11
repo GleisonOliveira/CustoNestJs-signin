@@ -58,6 +58,11 @@ $ pnpm run test:e2e
 $ pnpm run test:cov
 ```
 
+## Mongo
+Run the follow command to run mongo on cli
+```sh
+ docker exec -it  curso-nestjs-sign-db-1 mongosh -u user -p password --authenticationDatabase admin
+```
 ## Resources
 
 Check out a few resources that may come in handy when working with NestJS:
